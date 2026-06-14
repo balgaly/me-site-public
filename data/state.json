@@ -1,0 +1,210 @@
+{
+  "meta": {
+    "updated": "2026-06-14",
+    "updatedBy": "jarvis@lenovo"
+  },
+  "signals": [
+    {
+      "kind": "building",
+      "title": "JARVIS operating repo",
+      "detail": "A private agent operating system with missions, tickets, worktrees, reports, Scribe, and Promoter."
+    },
+    {
+      "kind": "writing",
+      "title": "short memory, long repo",
+      "detail": "The thesis: chat is runtime exhaust; the repo is the durable product."
+    },
+    {
+      "kind": "shipping",
+      "title": "Promoter",
+      "detail": "A publishing product that turns commits, reports, and lessons into reviewable public material."
+    },
+    {
+      "kind": "pattern",
+      "title": "Proof rails",
+      "detail": "Nothing is done until there is a command, screenshot, report, commit hash, or live URL."
+    }
+  ],
+  "operatingModes": [
+    {
+      "id": "builder",
+      "label": "Builder",
+      "title": "I turn fuzzy AI work into operating systems.",
+      "summary": "The useful part is not prompting harder. It is giving the work durable shape: state files, proofs, handoffs, reports, and tools that can run again tomorrow.",
+      "proof": [
+        "JARVIS Constitution turns chat into repeatable operating rules.",
+        "Worktrees make every agent task isolated and reversible.",
+        "Promoter packages proof into public material instead of opinions."
+      ]
+    },
+    {
+      "id": "operator",
+      "label": "Operator",
+      "title": "I care about systems that keep moving without heroics.",
+      "summary": "The design bias is boring reliability with a sharp interface: small tickets, explicit dependencies, proof gates, dashboards, and scheduled audits.",
+      "proof": [
+        "MISSION_STATE.md lets every session self-orient.",
+        "reports/sessions.log makes completion auditable.",
+        "Night shift and satellites turn idle time into checked work."
+      ]
+    },
+    {
+      "id": "writer",
+      "label": "Writer",
+      "title": "The writing comes from the machinery, not a content calendar.",
+      "summary": "The site should expose the ideas already proven by commits and reports. The voice stays direct, slightly skeptical, and grounded in what actually happened.",
+      "proof": [
+        "Proof stories are generated from real repo evidence.",
+        "words.balgaly.com carries the longer essays.",
+        "Promoter keeps drafts reviewable before anything goes public."
+      ]
+    }
+  ],
+  "liveFeeds": [
+    {
+      "kind": "repo",
+      "title": "Current build trace",
+      "context": "The personal site now reads like an operating profile: proof stories, source state, and a canvas map instead of a template portfolio.",
+      "action": "Turn the branch proof into a deployable public artifact."
+    },
+    {
+      "kind": "system",
+      "title": "Continuity contract",
+      "context": "Every new session begins from repo files, not memory. That makes the human the editor while the system carries context.",
+      "action": "Expose the contract publicly without leaking private implementation details."
+    },
+    {
+      "kind": "writing",
+      "title": "Short memory thread",
+      "context": "The strongest public thesis is that short AI memory is not a chat problem; it is an operating-system design problem.",
+      "action": "Link the site, blog, and Promoter around that thesis."
+    },
+    {
+      "kind": "public",
+      "title": "Public-safe proof",
+      "context": "The site needs proof without private URLs, employer detail, or invented metrics. It can show patterns, artifacts, and operating rules.",
+      "action": "Keep each proof story tied to a file, command, screenshot, or published post."
+    }
+  ],
+  "buildLog": [
+    {
+      "day": "Day 1",
+      "title": "The operating spine",
+      "summary": "Process, decisions, markdown tickets, generated graph, worktree lifecycle, and the first dashboard made the repo self-orienting.",
+      "proof": "M01-M05 completed with dashboard state, graph generation, worktree scripts, and daily/session reports."
+    },
+    {
+      "day": "Day 2",
+      "title": "The machine room",
+      "summary": "Local model, router, night shift, and Hermes evaluation turned the repo from a plan into a running system.",
+      "proof": "M06-M09 produced local LLM routing, Task Scheduler night run, and a parked Hermes decision with findings."
+    },
+    {
+      "day": "Day 3",
+      "title": "The public layer",
+      "summary": "Scribe, Promoter, the personal site, and the launch post turned private work into public proof.",
+      "proof": "Live post: https://words.balgaly.com/blog/short-memory-long-repo/ plus Promoter drafts, screenshots, and me.balgaly.com cockpit branch."
+    }
+  ],
+  "proofStories": [
+    {
+      "kind": "agent ops",
+      "title": "The repo that survives the chat",
+      "angle": "AI work needs continuity, not longer context windows. The operating contract lives in files, not memory.",
+      "evidence": [
+        "MASTERPLAN.md defines the mission sequence and acceptance demo.",
+        "MISSION_STATE.md holds current truth for every new session.",
+        "reports/sessions.log records proof lines instead of vibes."
+      ]
+    },
+    {
+      "kind": "developer tools",
+      "title": "Worktrees as the unit of agent work",
+      "angle": "Main checkouts stay clean while short-lived worktrees carry isolated tasks from ticket to merge.",
+      "evidence": [
+        "scripts/wt-new.ps1 creates ticket branches under C:/dev/.wt.",
+        "scripts/wt-done.ps1 merges, removes the worktree, and updates dashboard state.",
+        "Ticket dependencies are checked before a branch can start."
+      ]
+    },
+    {
+      "kind": "publishing system",
+      "title": "Promoter turns proof into public material",
+      "angle": "The publishing workflow should prepare, rank, and package ideas while the human keeps editorial control.",
+      "evidence": [
+        "Promoter generates LinkedIn and blog drafts from reports, commits, and lessons.",
+        "Each pack includes hooks, timing, image prompt, CTA, and checklist.",
+        "Archive controls keep posted and passed ideas out of tomorrow's queue."
+      ]
+    },
+    {
+      "kind": "second brain",
+      "title": "Scribe audits whether yesterday survived",
+      "angle": "A personal operating system needs an auditor that checks continuity, not another place to manually summarize work.",
+      "evidence": [
+        "Scribe runs on a schedule and writes daily reports.",
+        "It scans local repos for fresh trace and stale assumptions.",
+        "Findings become dashboard state and backlog material."
+      ]
+    }
+  ],
+  "systems": [
+    {
+      "name": "JARVIS",
+      "status": "active",
+      "role": "Mission control for plans, tickets, worktrees, reports, and proof."
+    },
+    {
+      "name": "Promoter",
+      "status": "active",
+      "role": "Turns the proof trail into public writing and launch material."
+    },
+    {
+      "name": "Scribe",
+      "status": "active",
+      "role": "Audits whether daily work has durable trace and useful next actions."
+    },
+    {
+      "name": "Worktree lifecycle",
+      "status": "active",
+      "role": "Keeps agent development isolated from main checkouts."
+    },
+    {
+      "name": "Router",
+      "status": "active",
+      "role": "Sends cheap routine work to local models and keeps reasoning explicit."
+    }
+  ],
+  "writing": [
+    {
+      "title": "short memory, long repo.",
+      "date": "2026-06-14",
+      "note": "The public story of building a small operating system around an AI agent in three days.",
+      "url": "https://words.balgaly.com/blog/short-memory-long-repo/"
+    },
+    {
+      "title": "short memory.",
+      "date": "2026-04-05",
+      "note": "Why external memory is infrastructure, not a note-taking hobby.",
+      "url": "https://words.balgaly.com/blog/short-memory"
+    },
+    {
+      "title": "the context bar.",
+      "date": "2026-04-03",
+      "note": "A small UI idea for making agent work more legible.",
+      "url": "https://words.balgaly.com/blog/the-context-bar"
+    },
+    {
+      "title": "the package manager nobody asked for.",
+      "date": "2026-03-31",
+      "note": "Why AI capabilities need distribution and governance.",
+      "url": "https://words.balgaly.com/blog/the-package-manager-nobody-asked-for"
+    },
+    {
+      "title": "things i didn't know.",
+      "date": "2026-03-28",
+      "note": "A longer note on learning by building systems that push back.",
+      "url": "https://words.balgaly.com/blog/things-i-didnt-know"
+    }
+  ]
+}
